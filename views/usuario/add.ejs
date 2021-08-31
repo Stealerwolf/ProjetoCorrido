@@ -3,8 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <title>O moddelo</title>
+        <style>
+            body{
+                background-color: yellow;
+            }
+            .bonitinho{
+                color: white;
+            }
+        </style>
+            
     </head>
     <body>
-        
+        <h1>Calculadoraaaa</h1>
+        <form method="POST">
+            <div class="bonitinho">
+            <input type ="number" name="num1" placeholder="Primeiro numero">
+            <input type ="number" name="num2" placeholder="Segundo numero">
+            <select name="operação" placeholder="operador">
+                <option value="somar"> + </option>
+                   <option value="subtrair"> - </option>
+                   <option value="multiplicar"> * </option>
+                   <option value="dividir"> / </option>
+            </select><br><br>
+            </div>
+              <input type="submit" name="Calcular">
+        </form>
     </body>
 </html>
