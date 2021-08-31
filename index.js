@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var calcroute = require('./routes/usuarioRoute');
+var usuarioRoute = require('./routes/usuarioRoute');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false}));

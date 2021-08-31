@@ -2,8 +2,8 @@ async function openAdc(req, res){
     res.render("usuario/add.ejs", { });
 }
 async function calc(req, res){
-    var valor1 = req.body.valor1;
-    var valor2 = req.body.valor2;
+    var num1 = req.body.num1;
+    var num2 = req.body.num2;
     var operacao = req.body.operacao;
     var result;
 

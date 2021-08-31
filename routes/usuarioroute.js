@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-var opeController = require("../controller/controller2");
+var controller2 = require("../controller/controller2");
 
-router.get('/calc', opeController.calc);
-router.post('/calc', opeController.openAdc);
+router.get('/calc', controller2.openAdc);
+router.post('/calc', controller2.calc);
 
 
 module.exports = router;
